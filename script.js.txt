@@ -1,0 +1,18 @@
+let pages = document.querySelectorAll('.page');
+let current = 0;
+
+function nextPage() {
+  pages[current].classList.remove('active');
+  current++;
+  pages[current].classList.add('active');
+}
+
+document.body.addEventListener('click', () => {
+  if (current < pages.length - 1) nextPage();
+});
+
+function playSong() {
+  let video = document.getElementById('song');
+  video.style.display = "block";
+  video.play();
+}

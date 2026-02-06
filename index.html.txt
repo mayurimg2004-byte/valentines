@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Story 💕</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+
+  <!-- Landing -->
+  <section class="page active" style="background-image:url('images/landing.jpg')">
+    <div class="text">
+      <p>Hi love,<br>
+      This isn’t just a website.<br>
+      It’s everything my heart wanted to say… slowly.</p>
+      <button onclick="nextPage()">Start our story</button>
+    </div>
+  </section>
+
+  <!-- Page 1 -->
+  <section class="page" style="background-image:url('images/hug.jpg')">
+    <p>Every time the world felt heavy,<br>your arms became my safest place.</p>
+  </section>
+
+  <!-- Page 2 -->
+  <section class="page" style="background-image:url('images/forehead_kiss.jpg')">
+    <p>In this moment,<br>I knew I was loved gently… and deeply.</p>
+    <small>Thank you for loving me this softly.</small>
+  </section>
+
+  <!-- Page 3 -->
+  <section class="page" style="background-image:url('images/crying_together.jpg')">
+    <p>We didn’t always smile.<br>But we never faced the pain alone.</p>
+  </section>
+
+  <!-- Page 4 -->
+  <section class="page" style="background-image:url('images/watching_sleep.jpg')">
+    <p>I’ve watched you sleep<br>and silently prayed that you always find peace.</p>
+  </section>
+
+  <!-- Page 5 -->
+  <section class="page" style="background-image:url('images/good_morning_chat.jpg')">
+    <p>No matter the distance,<br>my mornings always began with you.</p>
+  </section>
+
+  <!-- Page 6 -->
+  <section class="page" style="background-image:url('images/sad_distance.jpg')">
+    <p>There were days when love hurt,<br>but even then… I chose you.</p>
+  </section>
+
+  <!-- Page 7 -->
+  <section class="page" style="background-image:url('images/scolding_call.jpg')">
+    <p>Even your anger came from caring,<br>and even then… you never left.</p>
+    <small>And I understood you.</small>
+  </section>
+
+  <!-- Page 8 -->
+  <section class="page" style="background-image:url('images/virtual_kiss.jpg')">
+    <p>When we couldn’t touch,<br>we still found ways to love.</p>
+  </section>
+
+  <!-- Page 9 -->
+  <section class="page" style="background-image:url('images/same_sky.jpg')">
+    <p>Miles apart,<br>yet under the same sky… dreaming of us.</p>
+  </section>
+
+  <!-- Page 10 -->
+  <section class="page" style="background-image:url('images/imagining_meet.jpg')">
+    <p>I count days, moments, heartbeats…<br>until I finally run into your arms.</p>
+  </section>
+
+  <!-- Page 11 -->
+  <section class="page" style="background-image:url('images/comforting.jpg')">
+    <p>You held me together<br>when I was falling apart.</p>
+    <small>This is why I love you.</small>
+  </section>
+
+  <!-- Final Page -->
+  <section class="page final">
+    <p>I couldn’t find words strong enough…<br>so I turned my love into a song.</p>
+    <button onclick="playSong()">Play</button>
+    <small>This is my heart, singing for you.</small>
+
+    <video id="song" controls>
+      <source src="media/song.mp4" type="video/mp4">
+    </video>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif;
+}
+
+body {
+  background: black;
+  overflow: hidden;
+}
+
+.page {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  animation: fade 1.2s ease;
+}
+
+.page.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text, p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  text-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+small {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+button {
+  margin-top: 25px;
+  padding: 12px 22px;
+  border-radius: 25px;
+  border: none;
+  font-size: 1rem;
+  background: rgba(255,255,255,0.85);
+}
+
+.final video {
+  width: 90%;
+  margin-top: 20px;
+  display: none;
+}
+
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
